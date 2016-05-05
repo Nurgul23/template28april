@@ -1,0 +1,123 @@
+﻿.header {
+	margin-top: 20px;	
+}
+.newprovidence {
+	text-align: center;
+}
+.app {
+	border-radius: 40px;
+	background: skyblue;
+}
+.app::before{
+	margin: -70px;
+}
+.mainpage {
+	background-image: url(../images/header1.jpg);
+	background-size: cover;	
+	overflow: hidden;
+	height: 700px;
+}
+.mainpage h1{
+	text-align: center;
+}
+.mainpage p{
+	margin: 0 auto;
+}
+.mainpage img{
+	height: 900px;
+}
+.watch {
+	margin-left: 600px;
+	margin-top: 15px;
+}
+.expbar {
+	height: 300px; 
+	margin-top: 30px;  
+}
+.passcode {
+	height: 500px;
+	margin-left: -92px;
+}
+.worldwide {
+	height: 600px;
+}
+.worldwide p{
+	width: 400px;
+	margin-top: 20px;
+	color: gray;
+}
+.partners {
+	clear: both;
+	margin-top: 20px;
+}
+.worldwide div:first-child{
+	display: inline-block;
+}
+.interface {
+	height: 600px;
+	background-color: #f1f1f1;
+}
+.pics{
+
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	height: 400px; 
+	
+}
+/*.button {
+	 text-align: center;
+    margin-top: 35px;
+}*/
+.feedback {
+	height: 300px;
+	background-color: #f1f1f1;
+
+} 
+.feedback a{
+	border-radius: 25px;
+	width: 150px;
+	color: white;
+	margin-left: 580px;
+	margin-top: 10px;
+}
+.feedback a::before {
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.feedback a:hover{
+	color: white;
+}
+/*.interface .1,.2,.3,.4{
+	height: 900px;
+}*/
+.twitter {
+	margin-top: 40px;
+	height: 500px;
+}
+.choice {
+	background-color: #f1f1f1;
+}
+.angelina {
+	width: 60px;
+	height: 25px;
+	border-radius: 50px;
+	border: 1px solid gray;
+	text-align: center;
+}
+.george:hover {
+	background-color: white;
+}
+.footer a{
+	border-radius: 25px;
+	width: 150px;
+	color: white;
+	margin-top: 10px;
+}
+.footer a::before{
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.footer a:hover{
+	color: white;
+}
